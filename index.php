@@ -53,6 +53,7 @@ error_reporting(E_ALL);
     <title>Document</title>
 </head>
 <body>
+    <!-- stampo i film in html -->
     <h2><?php echo $Movie1->getMovie() ?></h2>
     <h2><?php echo $Movie2->getMovie() ?></h2>
     <h2><?php echo $Movie3->getMovie() ?></h2>
